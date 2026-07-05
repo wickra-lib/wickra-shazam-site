@@ -1,0 +1,16 @@
+# Wickra Shazam
+
+> Match an asset's current microstructure fingerprint against its entire history. Wickra Shazam turns a whole history into a rolling index of fixed-dimension microstructure fingerprints, then matches the current fingerprint against that index to name the regime — pattern recognition over the full feature space, not price alone. The indexing and matching core is deterministic and byte-identical across all ten language bindings.
+
+Wickra Shazam builds a fingerprint from the full Wickra feature space — indicators, price, and microstructure (order-book imbalance, funding, open interest, liquidations, footprint) — as a fixed-dimension vector. It indexes an asset's whole history into a rolling index of these fingerprints, then matches the current fingerprint against that index under cosine, Euclidean or DTW similarity to surface the k most similar historical setups and attach a human label ("may_2021_crash"). The fingerprint is data — a serde `FingerprintSpec` (an ordered feature list plus window, normalize and metric), not code — so it crosses the C ABI and WASM unchanged. Three operations, one core: `index(history, spec)`, `match_current(index, current, k)`, and a label attached to a match. Exposed as a JSON-over-C-ABI data API in Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R. Released under the MIT OR Apache-2.0 license.
+
+## Links
+
+- [GitHub](https://github.com/wickra-lib/wickra-shazam): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-shazam): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-shazam/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-shazam): Node package.
+
+## Related
+
+- [Wickra](https://wickra.org): The core streaming-indicator library the fingerprints are built on.
