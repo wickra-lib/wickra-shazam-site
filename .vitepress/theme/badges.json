@@ -21,6 +21,34 @@
     "height": 20
   },
   {
+    "alt": "crates.io",
+    "href": "https://crates.io/crates/wickra-shazam",
+    "file": "/badges/crates.svg",
+    "width": 119,
+    "height": 20
+  },
+  {
+    "alt": "npm",
+    "href": "https://www.npmjs.com/package/wickra-shazam",
+    "file": "/badges/npm.svg",
+    "width": 97,
+    "height": 20
+  },
+  {
+    "alt": "Maven Central",
+    "href": "https://central.sonatype.com/artifact/org.wickra/wickra-shazam",
+    "file": "/badges/maven.svg",
+    "width": 153,
+    "height": 20
+  },
+  {
+    "alt": "Go module",
+    "href": "https://pkg.go.dev/github.com/wickra-lib/wickra-shazam-go",
+    "file": "/badges/go.svg",
+    "width": 85,
+    "height": 20
+  },
+  {
     "alt": "License: MIT OR Apache-2.0",
     "href": "https://github.com/wickra-lib/wickra-shazam#license",
     "file": "/badges/license.svg",
