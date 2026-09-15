@@ -25,5 +25,5 @@ Targets .NET 8.
 
 ## More
 
-- [NuGet](https://www.nuget.org/packages/WickraShazam)
+- [NuGet](https://www.nuget.org/packages/Wickra.Shazam)
 - [Source & examples](https://github.com/wickra-lib/wickra-shazam/tree/main/examples/csharp)
