@@ -21,10 +21,24 @@
     "height": 20
   },
   {
+    "alt": "GitHub release",
+    "href": "https://github.com/wickra-lib/wickra-shazam/releases/latest",
+    "file": "/badges/release.svg",
+    "width": 111,
+    "height": 20
+  },
+  {
     "alt": "crates.io",
     "href": "https://crates.io/crates/wickra-shazam",
     "file": "/badges/crates.svg",
     "width": 119,
+    "height": 20
+  },
+  {
+    "alt": "PyPI",
+    "href": "https://pypi.org/project/wickra-shazam/",
+    "file": "/badges/pypi.svg",
+    "width": 95,
     "height": 20
   },
   {
