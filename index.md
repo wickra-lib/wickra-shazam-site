@@ -51,7 +51,7 @@ const installTabs = [
   { label: 'C',      lang: 'bash', code: '# prebuilt header + library from GitHub releases:\n# github.com/wickra-lib/wickra-shazam/releases' },
   { label: 'C#',     lang: 'bash', code: 'dotnet add package WickraShazam' },
   { label: 'Go',     lang: 'bash', code: 'go get github.com/wickra-lib/wickra-shazam-go' },
-  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-shazam</artifactId>\n  <version>0.1.1</version>\n</dependency>' },
+  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-shazam</artifactId>\n  <version>0.1.2</version>\n</dependency>' },
   { label: 'R',      lang: 'r',    code: 'install.packages("wickrashazam", repos = "https://wickra-lib.r-universe.dev")' },
 ]
 
