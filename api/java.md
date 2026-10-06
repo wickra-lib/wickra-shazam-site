@@ -8,7 +8,7 @@ drive it with `command(json) -> json` — `index` first, then `match`.
 <dependency>
   <groupId>org.wickra</groupId>
   <artifactId>wickra-shazam</artifactId>
-  <version>0.1.4</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 

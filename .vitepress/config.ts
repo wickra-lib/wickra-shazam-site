@@ -123,7 +123,7 @@ export default defineConfig({
         ],
       },
       {
-        text: 'v0.1.4',
+        text: 'v0.2.0',
         items: [
           { text: 'Release notes', link: 'https://github.com/wickra-lib/wickra-shazam/releases' },
           { text: 'Changelog', link: 'https://github.com/wickra-lib/wickra-shazam/blob/main/CHANGELOG.md' },
