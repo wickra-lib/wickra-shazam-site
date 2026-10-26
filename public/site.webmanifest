@@ -1,7 +1,7 @@
 {
   "name": "Wickra Shazam",
   "short_name": "Wickra Shazam",
-  "description": "Match an asset's current microstructure fingerprint against its entire history.",
+  "description": "Match an asset's current microstructure fingerprint against its entire history — cosine, Euclidean or DTW similarity.",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
